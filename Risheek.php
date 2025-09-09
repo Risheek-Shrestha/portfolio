@@ -186,6 +186,7 @@
               <span>Contact</span>
             </div>
           </li>
+          
         </ul>
       </div>
     </nav>
@@ -506,20 +507,24 @@
                   projects, creative ideas or opportunities to be part of your visions.</p>
                 <p class="open-sans-font custom-span-contact position-relative">
                   <i class="fa fa-envelope-open position-absolute"></i>
-                  <span class="d-block">mail me</span>shrestharisheek@gmail.com
+                  <span class="d-block">mail me</span>
+                  <a href="mailto:shrestharisheek@gmail.com">shrestharisheek@gmail.com</a>
                 </p>
+
                 <p class="open-sans-font custom-span-contact position-relative">
                   <i class="fa fa-phone-square position-absolute"></i>
-                  <span class="d-block">call me</span>+91-8102992890
+                  <span class="d-block">call me</span>
+                  <a href="tel:+918102992890">+91-8102992890</a>
                 </p>
+
                 <ul class="social list-unstyled pt-1 mb-5">
                   <li class="facebook">
-                    <a title="Facebook" href="#">
+                    <a title="WhatsApp" href="https://wa.me/918102992890" target="_blank" rel="noopener">
                       <i class="fa fa-whatsapp"></i>
                     </a>
                   </li>
                   <li class="twitter">
-                    <a title="Twitter" href="#">
+                    <a title="Twitter" href="https://www.linkedin.com/in/risheek-shrestha/" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
