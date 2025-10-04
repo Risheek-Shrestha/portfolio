@@ -204,7 +204,7 @@
             <img class="col-lg-4 position-fixed d-none d-lg-block" src="img/risheek.png" alt="">
             <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
               <div>
-                <img src="img/risheek.png" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
+                <img src="img/risheek.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
                   alt="my picture">
                 <h1 class="text-uppercase poppins-font">I'm Risheek Shrestha. <span>web developer</span>
                 </h1>
