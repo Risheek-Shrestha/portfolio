@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risheek Shrestha — Full-Stack &amp; ML Developer</title>
+<meta name="description" content="Risheek Shrestha — full-stack and ML developer building services in Spring Boot, Django, React, and Python. MCA (AI/ML) student at Shoolini University.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="nav-mark">risheek<span>.dev</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#work">work</a></li>
+      <li><a href="#log">log</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow hero-eyebrow"><span class="dot"></span>available for opportunities</div>
+      <h1>Building services that turn <span class="accent">input into decision.</span></h1>
+      <p class="hero-sub">I'm Risheek — a full-stack and ML developer. I build REST APIs, web apps, and prediction
+        models: things that take a request and return a real answer. Currently an MCA (AI/ML) student at
+        Shoolini University.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View work →</a>
+        <a href="assets/Risheek-Shrestha-Resume.pdf" class="btn btn-ghost" target="_blank">Download résumé</a>
+      </div>
+    </div>
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal-bar">
+        <span></span><span></span><span></span>
+        <span class="path">GET /api/risheek</span>
+      </div>
+      <div class="terminal-body" id="termBody"></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><span class="dot"></span>001 / about</div>
+        <h2 class="section-title">Who's answering the request</h2>
+      </div>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>I'm an MCA (AI/ML) student at the <strong>Yogananda School of AI, Computers and Data Sciences,
+          Shoolini University</strong> (2025–27), based in India. My work sits at the seam between backend
+          engineering and applied ML — building the services and the models that sit behind them.</p>
+        <p>Most of what I ship falls into one of three shapes: a <strong>REST API</strong> that authenticates,
+          stores, and serves data; a <strong>full-stack app</strong> that wraps that API in something people
+          actually use; or a <strong>trained model</strong> that turns a row of features into a prediction.
+          I like projects with a clear input and a clear output — it's easier to know when they actually
+          work.</p>
+      </div>
+      <div class="stack-block reveal">
+        <h3>Stack</h3>
+        <div class="stack-rows">
+          <div class="stack-row">
+            <span class="label">Backend</span>
+            <span class="items">Spring Boot, Django, FastAPI, Java, Python</span>
+          </div>
+          <div class="stack-row">
+            <span class="label">Frontend</span>
+            <span class="items">React, TypeScript</span>
+          </div>
+          <div class="stack-row">
+            <span class="label">ML</span>
+            <span class="items">Scikit-learn, PyTorch, sentence-transformers</span>
+          </div>
+          <div class="stack-row">
+            <span class="label">Data</span>
+            <span class="items">PostgreSQL, Redis</span>
+          </div>
+          <div class="stack-row">
+            <span class="label">Infra</span>
+            <span class="items">Docker, JWT auth, Maven</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><span class="dot"></span>002 / work</div>
+        <h2 class="section-title">Projects, as requests and responses</h2>
+      </div>
+      <span class="section-count">9 total</span>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- AI Resume Screener -->
+      <article class="proj reveal">
+        <div class="proj-head">
+          <span class="verb verb-post">POST</span>
+          <span class="proj-path">/resume-screener</span>
+          <h3 class="proj-title">AI Resume Screener</h3>
+        </div>
+        <div class="proj-body">
+          <p class="proj-desc">A full-stack ATS platform: a Spring Boot backend handles auth and job/candidate
+            data, a React + TypeScript frontend gives recruiters upload, scoring, and dashboard views.</p>
+          <div class="proj-response"><span class="status-live">● live</span> <span class="k">·</span>
+            <span class="v">auth: jwt</span> <span class="k">·</span> <span class="v">score: ai-ranked</span>
+            <span class="k">·</span> <span class="v">role: recruiter-dashboard</span></div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span>Spring Boot</span><span>React</span><span>TypeScript</span><span>JWT</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://github.com/Risheek-Shrestha/ai-resume-screener" target="_blank">backend</a>
+              <a href="https://github.com/Risheek-Shrestha/ai-resume-screener-fronted" target="_blank">frontend</a>
+              <a href="https://ai-resume-screener-fronted-three.vercel.app/" target="_blank">live demo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Student Grade Predictor -->
+      <article class="proj reveal">
+        <div class="proj-head">
+          <span class="verb verb-post">POST</span>
+          <span class="proj-path">/grade-predictor</span>
+          <h3 class="proj-title">Student Grade Predictor</h3>
+        </div>
+        <div class="proj-body">
+          <p class="proj-desc">Predicts a student's final grade from academic and personal features. Trained
+            and compared Linear Regression, Random Forest, and KNN on the UCI Student Performance dataset —
+            Random Forest won.</p>
+          <div class="proj-response"><span class="status-live">● live</span> <span class="k">·</span>
+            <span class="v">model: random-forest</span> <span class="k">·</span>
+            <span class="v">mae: 1.11</span> <span class="k">·</span> <span class="v">r2: 0.83</span></div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span>Python</span><span>Scikit-learn</span><span>Streamlit</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://github.com/Risheek-Shrestha/student-grade-predictor" target="_blank">code</a>
+              <a href="https://risheek-student-grade-predictor.streamlit.app/" target="_blank">live demo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Library Management API -->
+      <article class="proj reveal">
+        <div class="proj-head">
+          <span class="verb verb-get">GET</span>
+          <span class="proj-path">/library-management</span>
+          <h3 class="proj-title">Library Management API</h3>
+        </div>
+        <div class="proj-body">
+          <p class="proj-desc">A REST API for a library's book inventory — full CRUD, pagination, JWT auth with
+            role-based access, global exception handling, and Docker Compose for one-command deployment.</p>
+          <div class="proj-response"><span class="status-ok">200 OK</span> <span class="k">·</span>
+            <span class="v">auth: jwt (user / admin)</span> <span class="k">·</span>
+            <span class="v">layers: controller → service → repository</span></div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span>Spring Boot</span><span>PostgreSQL</span><span>Docker</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://github.com/Risheek-Shrestha/library-management-api" target="_blank">code</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- AnimeClip -->
+      <article class="proj reveal">
+        <div class="proj-head">
+          <span class="verb verb-get">GET</span>
+          <span class="proj-path">/animeclip</span>
+          <h3 class="proj-title">AnimeClip</h3>
+        </div>
+        <div class="proj-body">
+          <p class="proj-desc">A Django site for streaming anime — media catalog, browsing templates, and a
+            SCSS/JS-driven front end for the viewing experience.</p>
+          <div class="proj-response"><span class="status-ok">200 OK</span> <span class="k">·</span>
+            <span class="v">served: media catalog</span> <span class="k">·</span>
+            <span class="v">stack: django templates</span></div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span>Django</span><span>Python</span><span>SCSS</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://github.com/Risheek-Shrestha/AnimeClip" target="_blank">code</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Spring Security JWT API -->
+      <article class="proj reveal">
+        <div class="proj-head">
+          <span class="verb verb-post">POST</span>
+          <span class="proj-path">/auth/login</span>
+          <h3 class="proj-title">Spring Security JWT API</h3>
+        </div>
+        <div class="proj-body">
+          <p class="proj-desc">A from-scratch JWT auth API — BCrypt password hashing, token issuance, and a
+            filter chain that validates a Bearer token on every protected request.</p>
+          <div class="proj-response"><span class="v">no token</span> <span class="k">→</span>
+            <span class="status-live">401</span> <span class="k">·</span> <span class="v">valid token</span>
+            <span class="k">→</span> <span class="status-ok">200</span></div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span>Spring Security</span><span>JWT</span><span>PostgreSQL</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://github.com/Risheek-Shrestha/spring-security-jwt-api" target="_blank">code</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Minor / coursework projects -->
+    <div class="projects-minor">
+      <div class="eyebrow" style="margin-bottom: 18px;"><span class="dot"></span>earlier builds — Java servlets, MySQL-backed</div>
+      <div class="minor-list">
+
+        <div class="minor-row">
+          <span class="minor-verb">POST /bill</span>
+          <div class="minor-info">
+            <span class="name">Billing System</span>
+            <span class="desc">Admin login, product inventory, and bill generation with per-item discounts and grand-total calculation.</span>
+          </div>
+          <a href="https://github.com/Risheek-Shrestha/BillSystem" target="_blank">code →</a>
+        </div>
+
+        <div class="minor-row">
+          <span class="minor-verb">POST /atm</span>
+          <div class="minor-info">
+            <span class="name">ATM Service</span>
+            <span class="desc">Account creation, balance inquiry, deposits, and withdrawals with balance validation.</span>
+          </div>
+          <a href="https://github.com/Risheek-Shrestha/AtmService" target="_blank">code →</a>
+        </div>
+
+        <div class="minor-row">
+          <span class="minor-verb">POST /test</span>
+          <div class="minor-info">
+            <span class="name">Online Test System</span>
+            <span class="desc">Student registration, test authoring and upload, session-based test-taking, and automatic scoring.</span>
+          </div>
+          <a href="https://github.com/Risheek-Shrestha/Test_system" target="_blank">code →</a>
+        </div>
+
+        <div class="minor-row">
+          <span class="minor-verb">POST /results</span>
+          <div class="minor-info">
+            <span class="name">Student Result System</span>
+            <span class="desc">Registration/login, per-course-and-semester subject configuration, and marks entry per student.</span>
+          </div>
+          <a href="https://github.com/Risheek-Shrestha/Marks_management" target="_blank">code →</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="log">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><span class="dot"></span>003 / log</div>
+        <h2 class="section-title">Experience &amp; education</h2>
+      </div>
+    </div>
+    <div class="log-cols">
+      <div class="log reveal">
+        <p class="log-col-title">Experience</p>
+        <div class="log-entry">
+          <span class="log-when">Feb 2025 — Apr 2025</span>
+          <div class="log-what">
+            <h3>Web Developer</h3>
+            <span class="place">TutorSchool</span>
+            <p>Built and maintained web features as part of a small development team, working across the
+              front and back end.</p>
+          </div>
+        </div>
+        <div class="log-entry">
+          <span class="log-when">Oct 2024 — Jan 2025</span>
+          <div class="log-what">
+            <h3>Web Developer Intern</h3>
+            <span class="place">Dotplus Technology</span>
+            <p>Hands-on internship focused on practical web development, with exposure to real production
+              workflows and tooling.</p>
+          </div>
+        </div>
+      </div>
+      <div class="log reveal">
+        <p class="log-col-title">Education</p>
+        <div class="log-entry">
+          <span class="log-when">2025 — 2027</span>
+          <div class="log-what">
+            <h3>MCA (AI/ML)</h3>
+            <span class="place">Yogananda School of AI, Computers and Data Sciences · Shoolini University</span>
+            <p>Coursework and applied projects across machine learning, full-stack development, and systems
+              design — the base this portfolio's projects are built on.</p>
+          </div>
+        </div>
+        <div class="log-entry">
+          <span class="log-when">2022 — 2025</span>
+          <div class="log-what">
+            <h3>Bachelor's Degree</h3>
+            <span class="place">Oxford Business College</span>
+            <p>Undergraduate degree covering the core foundations that led into full-stack and backend
+              development work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy reveal">
+      <div class="eyebrow"><span class="dot"></span>004 / contact</div>
+      <h2>Send a request.</h2>
+      <p>Open to full-stack and ML roles, freelance work, or just a conversation about something you're
+        building. I usually reply within a day.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:shrestharisheek@gmail.com"><span class="arrow">→</span> shrestharisheek@gmail.com</a></li>
+        <li><a href="https://github.com/Risheek-Shrestha" target="_blank"><span class="arrow">→</span> github.com/Risheek-Shrestha</a></li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contactForm">
+      <input type="hidden" name="access_key" value="3a0cdbd3-5871-4f42-a71d-bc1627f34afd">
+      <input type="hidden" name="subject" value="New message from portfolio site">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send message</button>
+      <p class="form-note" id="formNote">Sends directly — I'll get it by email.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <p>© 2026 Risheek Shrestha. Built from scratch.</p>
+    <p>Patna, Bihar, IN</p>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
